@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Integrale</title>
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+</head>
+<body>
+    <div class="divide1">
+        <img src="imgs/logo-branca-integrale.webp">
+        <h2>Seja bem vindo</h2>
+        <p>Na <span class="destaque">Integrale</span>, valorizamos o potencial humano, buscamos <span class="destaque">talentos que fazem a diferença</span> e reconhecemos os esforços que constroem nosso sucesso.</p>
+    </div>
+    <div class="divide2">
+        <div class="container">
+            <h2><span style="color:#63C3CE;">.</span>Cadastre-se</h2>
+            <form id="cadastroForm">
+                <div class="campo">
+                    <input placeholder="Nome" type="text" id="nome" name="nome" required>
+                </div>
+
+                <div class="campo">
+                    <input placeholder="Email" type="email" id="email" name="email" required>
+                </div>
+
+                <div class="campo">
+                    <div style="position: relative;">
+                        <input placeholder="Senha" type="password" id="senha" name="senha" required>
+                        <span id="verSenha">
+                            🔓
+                        </span>
+                    </div>
+                </div>
+
+                <button type="submit">ENVIAR</button>
+            </form>
+        </div>
+    </div>
+
+    <div id="meuPopup" class="popup">
+        <div class="popup-conteudo">
+          <span class="fechar-popup" id="fecharPopup">×</span>
+          <img class="logo-popup" src="imgs/logo-integrale.png">
+          <h2 class="head-popup">Obrigado pelo cadastro <br><span class="destaque2" id="popup-nome"></span></h2>
+          <p style="color:#272727; font-weight: 600;">Email: <span class="destaque2" id="popup-email"></span></p>
+          <p style="color:#272727; font-weight: 600;">Senha: <span class="destaque2" id="popup-senha" style="display: none;"></span> <span id="verSenhaPopup" style="cursor: pointer;">🔒</span></p> 
+        </div>
+      </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
