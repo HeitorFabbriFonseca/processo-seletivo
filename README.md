@@ -4,7 +4,7 @@
 1.  **Baixar os arquivos do projeto:**
     *   Clique no botão "Code" e depois em "Download ZIP".
     *   Extraia o arquivo ZIP em uma pasta no seu computador.
-    *   Abra o arquivo `cadastro.html` com qualquer navegador.
+    *   Abra o arquivo `index.html` com qualquer navegador.
 
 2.  **Usar o formulário de cadastro:**
     *   Preencha os campos "Nome", "Email" e "Senha" com as suas informações.
