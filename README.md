@@ -1,6 +1,5 @@
-# Teste Prático - Estágio de Programação Web
-
-## 📋 Descrição do Teste
+# Teste Prático - Cadastro integrale
+## 📋 Como utilizar
 Você deve criar uma **página web simples** que contenha:
 - Um formulário de cadastro com os seguintes campos:
   - **Nome**
