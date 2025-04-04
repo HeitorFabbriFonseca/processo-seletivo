@@ -11,3 +11,8 @@
     *   Clique no botão "ENVIAR".
     *   Um popup "Obrigado pelo cadastro" será exibido, confirmando o envio do formulário.
     *   Os dados serão enviados para a planilha: https://docs.google.com/spreadsheets/d/13RfxOogYe5oORfgd3IlbJ8bfSZJ5Azo8HLs4hUOC78Q/edit?usp=sharing
+
+
+## 📋 Integração com Planilha Excel
+
+Os dados do Formulário são enviados para uma planilha através de uma automação feita utilizando o https://www.make.com/
